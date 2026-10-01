@@ -1,0 +1,126 @@
+.track-page {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background-color: #f5f8f6;
+}
+
+.track-container {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.track-container h1 {
+  text-align: center;
+  color: #1f3d2b;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.track-description {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.track-input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.track-input {
+  flex: 1;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.track-input:focus {
+  outline: none;
+  border-color: #1f6f43;
+}
+
+.track-button {
+  padding: 13px 22px;
+  background-color: #1f6f43;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.track-button:hover {
+  background-color: #185936;
+}
+
+.error-message {
+  text-align: center;
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+
+.complaint-details {
+  margin-top: 25px;
+  padding: 25px;
+  background-color: #f4f8f5;
+  border-radius: 12px;
+  border: 1px solid #dce8df;
+}
+
+.complaint-details h2 {
+  text-align: center;
+  color: #1f3d2b;
+  margin-bottom: 20px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #dce8df;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.detail-value {
+  color: #555;
+  text-align: right;
+}
+
+.status-pending {
+  color: #d97706;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .track-container {
+    padding: 25px;
+  }
+
+  .track-input-area {
+    flex-direction: column;
+  }
+
+  .track-button {
+    width: 100%;
+  }
+
+  .detail-row {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .detail-value {
+    text-align: left;
+  }
+}

@@ -1,0 +1,78 @@
+.complaint-page {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background-color: #f5f8f6;
+}
+
+.complaint-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.complaint-container h1 {
+  text-align: center;
+  color: #1f3d2b;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.complaint-container > p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+.complaint-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.complaint-form label {
+  font-weight: 600;
+  color: #333;
+  margin-top: 12px;
+}
+
+.complaint-form input,
+.complaint-form select,
+.complaint-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+.complaint-form textarea {
+  resize: vertical;
+}
+
+.complaint-form input:focus,
+.complaint-form select:focus,
+.complaint-form textarea:focus {
+  outline: none;
+  border-color: #1f6f43;
+}
+
+.complaint-form button {
+  margin-top: 25px;
+  padding: 14px;
+  background-color: #1f6f43;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.complaint-form button:hover {
+  background-color: #185936;
+}
